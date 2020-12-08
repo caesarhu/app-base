@@ -1,0 +1,12 @@
+{:jdbc-url "jdbc:postgresql://localhost:15432/bonus?user=shun&password=smilehu"
+ :connection-uri #profile {:default #env JDBC_DATABASE_URL
+                           :dev #or [#env JDBC_DATABASE_URL
+                                     #ref [:jdbc-url]]}
+ :migration-dir "migrations"
+
+ :migratus {:store :database
+            :migration-dir #ref [:migration-dir]
+            :db {:connection-uri #ref [:connection-uri]}}
+
+ :components
+ {}}

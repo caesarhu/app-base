@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Leiningen: org.clojure/tools.gitlibs:1.0.100">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.m2/repository/org/clojure/tools.gitlibs/1.0.100/tools.gitlibs-1.0.100.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
