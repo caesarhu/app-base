@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="Leiningen: org.clojure/data.xml:0.2.0-alpha6">
-    <CLASSES>
-      <root url="jar://$USER_HOME$/.m2/repository/org/clojure/data.xml/0.2.0-alpha6/data.xml-0.2.0-alpha6.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>

@@ -4,10 +4,10 @@
             [clojure.java.io :as io]
             [expound.alpha :as expound]
             [orchestra.spec.test :as stest]
-            [app-base.config :refer [config]]
+            [app-base.config :as config]
             [juxt.clip.repl :refer [start stop set-init! reset system]]))
 
-(set-init! (fn [] (config :dev)))
+(set-init! (fn [] (config/config :dev)))
 
 (comment
   (start)
